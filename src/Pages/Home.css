@@ -20,13 +20,13 @@
     padding: 8px;
 }
 
-.setting_select {
+/* .setting_select {
     display: flex;
     flex-direction: column;
     padding: 20px;
     width: 0.8;
     justify-content: space-evenly;
-}
+} */
 
 @media(max-width:800px) {
     .content {
@@ -43,13 +43,13 @@
     .setting {
         width: 100%;
     }
+}
 
-    .setting_select {
-        display: flex;
-        flex-direction: column;
-        padding: 20px;
-        width: 100%;
-        flex: 0.8;
-        justify-content: space-evenly;
-    }
+.setting_select {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    flex: 0.8;
+    justify-content: space-evenly;
 }

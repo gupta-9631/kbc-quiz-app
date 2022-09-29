@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="header">
       <Link to="/" className="title">
-        Intuitive Quiz App
+        KBC Quiz App
       </Link>
       <hr className="divider"></hr>
     </div>
