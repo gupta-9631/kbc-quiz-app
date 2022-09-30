@@ -12,19 +12,22 @@ const Result = ({ name, score }) => {
     }
   }, [name, navigate]);
 
-  const [shout, setShout] = useState("Great");
+  const [shout, setShout] = useState("");
 
   const shoutOut = () => {
     if (score <= 2) {
-      setShout("Good Effort");
+      setShout("Good Effort,");
     } else if (score >= 2 && score <= 4) {
       setShout("Weldone 👍");
     } else if (score.length >= 5 && score <= 7) {
-      setShout("Almost Perfect");
+      setShout("Almost Perfect,");
     } else if (score >= 8) {
       setShout("Perfection 👌");
+    } else {
+      setShout("Keep Playing");
     }
   };
+
 
   return (
     <div className="result">
