@@ -5,3 +5,9 @@
     height: 60vh;
     text-align: center;
 }
+.shout {
+    color: white;
+    font-size: 40px;
+    border: 1px solid gray;
+    background-color: green;
+}
